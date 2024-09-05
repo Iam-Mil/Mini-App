@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Розыгрыш</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #f0f0f5, #c0c0cc);
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .app-container {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .checkmark {
+      font-size: 80px;
+      color: #4caf50;
+    }
+
+    .heading {
+      font-size: 22px;
+      margin: 15px 0;
+      color: #222;
+    }
+
+    .subheading {
+      font-size: 16px;
+      margin-bottom: 10px;
+      color: #777;
+    }
+
+    .timer {
+      font-size: 26px;
+      font-weight: bold;
+      color: #4caf50;
+      margin: 15px 0;
+    }
+
+    .button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 10px 0;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+    }
+
+    .invite {
+      background-color: #ff9800;
+      margin: 10px 0;
+    }
+
+    .other-raffles {
+      background: linear-gradient(45deg, #f36cfa, #8e44ad);
+      color: white;
+    }
+
+    .ticket {
+      background-color: #f5f5f5;
+      padding: 10px;
+      border-radius: 8px;
+      margin: 10px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .ticket-code {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .ticket-date {
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    <div class="checkmark">✔️</div>
+    <div class="heading">Вы участвуете в розыгрыше!</div>
+    <div class="subheading">Не отписывайтесь от каналов до окончания розыгрыша!</div>
+
+    <div class="timer">5 дней, 22:04:18</div>
+    <button class="button">Подробнее о розыгрыше</button>
+
+    <button class="button invite">Пригласить друзей</button>
+    <button class="button other-raffles">Другие розыгрыши</button>
+
+    <div class="ticket">
+      <span class="ticket-code">1H8VKV</span>
+      <span class="ticket-date">Получен: 31.08.2024, 15:55</span>
+    </div>
+  </div>
+
+</body>
+</html>
