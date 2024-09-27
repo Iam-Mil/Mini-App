@@ -27,3 +27,4 @@ async def insert(user_id, username, email):
     finally:
         if conn:
             await conn.close()
+
