@@ -26,7 +26,7 @@ async def main():
     logger.setLevel(logging.INFO)
     dp.include_router(router)
     await dp.start_polling(bot)
-    #привет
+    #привет ghgh
 
 
 if __name__ == '__main__':
